@@ -1,7 +1,7 @@
 # SITE SETTINGS
 title: AI-Care                        # Title in top navigation bar (navbar) and <head>
 author: AICare-RPTU                   # Used for copyright statement in footer
-baseurl: "/aircare"                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
+#baseurl: "/aircare"                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
 url: "https://ai-care-czs.github.io"
                                         # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
                                         # A baseurl affects internal links, see http://ai-care-czs.github.io/aicare/markdown/#links
