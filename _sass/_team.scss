@@ -1,0 +1,52 @@
+// Header
+
+// .header {
+//   // Mimics Bootstrap v4 .jumbotron
+//   // background-image: set in page front matter
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: 512px 300px ;
+//   border-radius: 0; // Should always be square, independent from $enable-rounded
+//   color: black;
+//   margin-top: 2rem;
+//   margin-bottom: 2rem;
+//   padding: 2rem 1rem;
+//   position: relative; // To contain overlay
+//   text-align: center;
+
+//   h1 {
+//     $header-h1: 3rem;
+//     font-size: $header-h1;
+//     font-weight: 800;
+//     margin-top: 16rem;
+
+//     // Reduce font-size on smaller screens, except on homepage
+//     @include media-breakpoint-down(md) {
+//       font-size: $header-h1 - 1;
+//     }
+//   }
+// }
+
+// Team members
+
+.team-member {
+  margin-bottom: $grid-gutter-width;
+
+  // Image container
+  .flex-shrink-0 {
+    width: 100px;
+    
+    img {
+      height: 100px;
+      width: 100px;
+      border: 3px solid $gray-200;
+      border-radius: 100px;
+    }
+  }
+
+  .orcid {
+    height: 16px;
+    width: 16px;
+    margin-top: -3px;
+  }
+}

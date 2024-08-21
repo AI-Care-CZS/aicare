@@ -1,0 +1,13 @@
+*.gem
+.bundle
+.sass-cache
+_site
+*.lock
+TM_imgs
+tmp_imgs
+
+# npm
+node_modules
+
+# Mac OS X
+.DS_Store
