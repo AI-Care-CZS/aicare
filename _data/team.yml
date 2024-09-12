@@ -1,7 +1,7 @@
 # Project team members listed below will appear on the /team page
 
 - name:		Prof. Dr.-Ing. Naim Bajcinca
-  role:	Project Lead
+  role:	Project Lead (Speaker)
   description:	Professor for Mechatronics in Mechanical Engineering and Process Engineering at RPTU Kaiserslautern
   image: assets/theme/images/team_pics/PH.png
   weblink:	https://www.mv.uni-kl.de/mec/staff/naim-bajcinca
@@ -11,28 +11,13 @@
 
 - name:		Dr. Bernhard Radlwimmer
   description:	Team Leader for Cancer Metabolism and Signaling in Molecular Genetics at DKFZ Heidelberg
-  role:	Project Co-Lead
+  role:	Project Co-Lead (Co-speaker)
   image: assets/theme/images/team_pics/PH.png
   weblink:	www.dkfz.de/en/genetics/pages/projects/Tumor-metabolism/Tumor_metabolism.html
   phone: 	+49 6221 42-4580  
   email: 		b.radlwimmer@dkfz.de 
 
-- name:		Dr. Carl Herrmann
-  description:	Professor for Bioinformatics at University Heidelberg  
-  role:	Project PI
-  image: assets/theme/images/team_pics/PH.png
-  weblink: https://www.hdsu.org
-  phone:  (+49) 6221 5451249 
-  email: carl.herrmann@bioquant.uni-heidelberg.de
-
-- name:		Prof. Dr. Marius Kloft
-  description:	Professor for Machine Learning at RPTU
-  role:	Project PI
-  image: assets/theme/images/team_pics/PH.png
-  weblink:	https://ml.informatik.uni-kl.de/
-  phone: 	+49 631 205-2635  
-  email: 		kloft@cs.uni-kl.de
-
+# PIs sorted alphabetically (last name) + years involved 
 - name:		Prof. Dr. Nicolas R. Gauger
   description:	Professor for Scientific Computing at RPTU Kaiserslautern
   role:	Project PI
@@ -48,6 +33,30 @@
   weblink:	https://nuw.rptu.de/ags/ag-numerische-simulation
   phone: 	+49 6341 280-34263  
   email: 		a.hundertmark@rptu.de 
+
+- name:		Prof. Dr. Carl Herrmann
+  description:	Professor for Bioinformatics at University Heidelberg  
+  role:	Project PI
+  image: assets/theme/images/team_pics/PH.png
+  weblink: https://www.hdsu.org
+  phone:  (+49) 6221 5451249 
+  email: carl.herrmann@bioquant.uni-heidelberg.de
+
+- name:		Dr. Sandesh Athni Hiremath
+  description:	Postdoc at Mechatronics in Mechanical Engineering and Process Engineering at RPTU Kaiserslautern
+  role:	Project PI
+  image: assets/theme/images/team_pics/PH.png
+  weblink:	https://www.mv.uni-kl.de/mec/staff/sandesh-hiremath
+  phone: 	+49 631 205-3230
+  email: 		sandesh.hiremath@mv.uni-kl.de
+
+- name:		Prof. Dr. Marius Kloft
+  description:	Professor for Machine Learning at RPTU
+  role:	Project PI
+  image: assets/theme/images/team_pics/PH.png
+  weblink:	https://ml.informatik.uni-kl.de/
+  phone: 	+49 631 205-2635  
+  email: 		kloft@cs.uni-kl.de
 
 - name:		Dr. Hai-Kun Liu
   description:	Head of Division of Molecular Neurogenetics at DKFZ Heidelberg
@@ -80,11 +89,3 @@
   weblink:	https://ml.informatik.uni-kl.de/
   phone: 	+49-631-205-2635 
   email: 		fellenz@cs.uni-kl.de 
-
-- name:		Dr. Sandesh Athni Hiremath
-  description:	Postdoc at Mechatronics in Mechanical Engineering and Process Engineering at RPTU Kaiserslautern
-  role:	Project PI
-  image: assets/theme/images/team_pics/PH.png
-  weblink:	https://www.mv.uni-kl.de/mec/staff/sandesh-hiremath
-  phone: 	+49 631 205-3230
-  email: 		sandesh.hiremath@mv.uni-kl.de
