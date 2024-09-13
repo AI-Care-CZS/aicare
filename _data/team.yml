@@ -17,7 +17,16 @@
   phone: 	+49 6221 42-4580  
   email: 		b.radlwimmer@dkfz.de 
 
-# PIs sorted alphabetically (last name) + years involved 
+# PIs sorted alphabetically (last name)
+
+- name:		Jun.-Prof. Dr. Sophie Fellenz
+  description:	Jun.-Prof. for Machine Learning at RPTU Kaiserslautern
+  role:		Project PI
+  image: assets/theme/images/team_pics/PH.png
+  weblink:	https://ml.informatik.uni-kl.de/
+  phone: 	+49-631-205-2635 
+  email: 		fellenz@cs.uni-kl.de v
+
 - name:		Prof. Dr. Nicolas R. Gauger
   description:	Professor for Scientific Computing at RPTU Kaiserslautern
   role:	Project PI
@@ -80,12 +89,4 @@
   image: assets/theme/images/team_pics/PH.png
   weblink:	https://bio.rptu.de/fgs/molekulare-genetik
   phone: 	+49 631 205-3250  
-  email: 		storchova@rptu.de 
-
-- name:		Jun.-Prof. Dr. Sophie Fellenz
-  description:	Jun.-Prof. for Machine Learning at RPTU Kaiserslautern
-  role:		Project PI
-  image: assets/theme/images/team_pics/PH.png
-  weblink:	https://ml.informatik.uni-kl.de/
-  phone: 	+49-631-205-2635 
-  email: 		fellenz@cs.uni-kl.de 
+  email: 		storchova@rptu.de
