@@ -32,6 +32,19 @@
     width: 100%;
   }
 
+  // Overlay
+  .blg-image {
+    //background-image: linear-gradient(rgba($dark, 0.1), rgba($dark, 0.39));
+    content: "";
+    background-repeat: repeat;
+    background-size: contain;
+    left: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
   a {
     &:not([class]) { // Excludes <a> with class, e.g. .btn .badge
       color: $white;

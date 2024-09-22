@@ -66,23 +66,52 @@ description: Template for team page.
         {% endif %}
 
         {% if member.email %}
-          <li class="list-inline-item">
-            <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i></a>
+          <li class="list-inline">
+            <a href="mailto:{{ member.email }}"><i class="far fa-envelope"></i>
+              <small class="text-muted"> {{ member.email }}</small>
+            </a>
           </li>
         {% endif %}
 
         {% if member.weblink %}
-        <li class="list-inline-item">
-          <a href="web:{{ member.weblink }}"><i class="fa fa-globe"></i></a>
+        <li class="list-inline">
+          <a href="{{member.weblink }}"><i class="fa fa-globe"></i> 
+              <small class="text-muted"> {{ member.weblink }}</small>
+          </a>
         </li>
         {% endif %}
 
         {% if member.phone %}
-        <li class="list-inline-item">
-          <a href="phone:{{ member.phone }}"><i class="fa fa-phone"></i></a>
+        <li class="list-inline">
+          <a href="phone:{{ member.phone }}"><i class="fa fa-phone"></i>
+            <small class="text-muted"> {{ member.phone }}</small>
+          </a>
         </li>
         {% endif %}
       </ul>
+      <!--------------------STUDENT Info------------------------------>
+      <div class="flex-shrink-1 me-3">
+          {% if member.student %}
+            <img src="{{ member.student-img | relative_url }}" alt="{{ member.student }}">
+          {% endif %}
+      </div>
+      <div>
+        <!-- {{ member.description | markdownify }} -->
+        <ul class="list-inline">
+          {% if member.student-email %}
+          <li class="list-inline">
+            <h5 class="stxt">{{ member.student }}
+              {% if member.student-role %}
+                <small class="text-muted">| {{ member.student-role}}</small> 
+              {% endif %}
+            </h5>
+            <a class="senv" href="mailto:{{ member.student-email }}"><i class="far fa-envelope"></i>
+              <small class="setxt"> {{ member.student-email }}</small>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
     </div>
   </div>
 {% endfor %}
