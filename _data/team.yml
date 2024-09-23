@@ -3,7 +3,7 @@
 - name:		Prof. Dr.-Ing. Naim Bajcinca
   role:	Project Lead (Speaker)
   description:	Professor for Mechatronics in Mechanical Engineering and Process Engineering at RPTU Kaiserslautern
-  image: assets/theme/images/team_pics/PH.png
+  image: assets/theme/images/team_pics/NB.png
   weblink:	https://www.mv.uni-kl.de/mec/staff/naim-bajcinca
   phone: 	+49 631 205-3230 
   email: 		naim.bajcinca@mv.uni-kl.de 
@@ -12,25 +12,32 @@
 - name:		Dr. Bernhard Radlwimmer
   description:	Team Leader for Cancer Metabolism and Signaling in Molecular Genetics at DKFZ Heidelberg
   role:	Project Co-Lead (Co-speaker)
-  image: assets/theme/images/team_pics/PH.png
-  weblink:	www.dkfz.de/en/genetics/pages/projects/Tumor-metabolism/Tumor_metabolism.html
+  image: assets/theme/images/team_pics/BR.jpg
+  weblink:	https://www.dkfz.de/en/genetics/pages/projects/Tumor-metabolism/Tumor_metabolism.html
   phone: 	+49 6221 42-4580  
   email: 		b.radlwimmer@dkfz.de 
-
+  student: Anna-Sophie Spreng
+  student-role: PhD Student
+  student-email: anna-sophie.spreng@dkfz.de
+  student-img: assets/theme/images/team_pics/PH.png
 # PIs sorted alphabetically (last name)
 
 - name:		Jun.-Prof. Dr. Sophie Fellenz
   description:	Jun.-Prof. for Machine Learning at RPTU Kaiserslautern
   role:		Project PI
-  image: assets/theme/images/team_pics/PH.png
+  image: assets/theme/images/team_pics/SF.jpg
   weblink:	https://ml.informatik.uni-kl.de/
   phone: 	+49-631-205-2635 
-  email: 		fellenz@cs.uni-kl.de v
+  email: 		fellenz@cs.uni-kl.de
+  student: Phil Ostheimer
+  student-role: PhD Student
+  student-email: ostheimer@informatik.uni-kl.de
+  student-img: assets/theme/images/team_pics/PH.png
 
 - name:		Prof. Dr. Nicolas R. Gauger
   description:	Professor for Scientific Computing at RPTU Kaiserslautern
   role:	Project PI
-  image: assets/theme/images/team_pics/PH.png
+  image: assets/theme/images/team_pics/NG.jpg
   weblink: https://www.scicomp.uni-kl.de/
   phone: 	+49 631 205-5635  
   email: 		nicolas.gauger@scicomp.uni-kl.de 
@@ -38,23 +45,31 @@
 - name:		Prof. Dr. Anna Hundertmark
   description:	Professor for Numerical Simulations at RPTU-Landau
   role:	Project PI
-  image: assets/theme/images/team_pics/PH.png
+  image: assets/theme/images/team_pics/AH.jpg
   weblink:	https://nuw.rptu.de/ags/ag-numerische-simulation
   phone: 	+49 6341 280-34263  
-  email: 		a.hundertmark@rptu.de 
+  email: 		a.hundertmark@rptu.de
+  student: Michael Kastor
+  student-role: PhD Student
+  student-email: m.kastor@rptu.de
+  student-img: assets/theme/images/team_pics/PH.png
 
 - name:		Prof. Dr. Carl Herrmann
   description:	Professor for Bioinformatics at University Heidelberg  
   role:	Project PI
-  image: assets/theme/images/team_pics/PH.png
+  image: assets/theme/images/team_pics/CH.jpg
   weblink: https://www.hdsu.org
   phone:  (+49) 6221 5451249 
   email: carl.herrmann@bioquant.uni-heidelberg.de
+  student: Jean Radig
+  student-role: PhD Student
+  student-email: jean.radig@bioquant.uni-heidelberg.de
+  student-img: assets/theme/images/team_pics/PH.png
 
 - name:		Dr. Sandesh Athni Hiremath
   description:	Postdoc at Mechatronics in Mechanical Engineering and Process Engineering at RPTU Kaiserslautern
   role:	Project PI
-  image: assets/theme/images/team_pics/PH.png
+  image: assets/theme/images/team_pics/SAH.png
   weblink:	https://www.mv.uni-kl.de/mec/staff/sandesh-hiremath
   phone: 	+49 631 205-3230
   email: 		sandesh.hiremath@mv.uni-kl.de
@@ -62,15 +77,19 @@
 - name:		Prof. Dr. Marius Kloft
   description:	Professor for Machine Learning at RPTU
   role:	Project PI
-  image: assets/theme/images/team_pics/PH.png
+  image: assets/theme/images/team_pics/MK.jpg
   weblink:	https://ml.informatik.uni-kl.de/
   phone: 	+49 631 205-2635  
   email: 		kloft@cs.uni-kl.de
+  student: Andriy Balinskyy
+  student-role: PhD Student
+  student-email: balinskyy@cs.uni-kl.de
+  student-img: assets/theme/images/team_pics/PH.png
 
 - name:		Dr. Hai-Kun Liu
   description:	Head of Division of Molecular Neurogenetics at DKFZ Heidelberg
   role:	Project PI
-  image: assets/theme/images/team_pics/PH.png
+  image: assets/theme/images/team_pics/HL.jpg
   weblink:	https://www.dkfz.de/en/normale-und-neoplastische-stammzellen/
   phone: 	+49 6221 42-3266 
   email: 		l.haikun@dkfz.de 
@@ -78,15 +97,23 @@
 - name:		Prof. Dr. Tanja Maritzen
   description:	Professor for Nanophysiology at RPTU Kaiserslautern
   role:	Project PI
-  image: assets/theme/images/team_pics/PH.png
+  image: assets/theme/images/team_pics/TM.jpg
   weblink:	https://bio.rptu.de/en/fgs/nanophysiology
   phone: 	+49 631 205-4908  
-  email: 		maritzen@rptu.de 
+  email: 		maritzen@rptu.de
+  student: Gina Gräßle
+  student-role: PhD Student
+  student-email: graessle@rptu.de
+  student-img: assets/theme/images/team_pics/PH.png
 
 - name:		Prof. Dr. Zuzana Storchova
   description:	Professor for Molecular Genetics in Biology at RPTU Kaiserslautern
   role:		Project PI
-  image: assets/theme/images/team_pics/PH.png
+  image: assets/theme/images/team_pics/ZS.jpg
   weblink:	https://bio.rptu.de/fgs/molekulare-genetik
   phone: 	+49 631 205-3250  
   email: 		storchova@rptu.de
+  student: Tamara Hamman
+  student-role: PhD Student
+  student-email: thamann@rptu.
+  student-img: assets/theme/images/team_pics/PH.png
