@@ -52,3 +52,5 @@ The visit will take place on September 25, 2024 and will focus on some of the co
 |---------|---------|
 
 <!-- <div class="datatable-end"></div> -->
+
+![image info](../../../assets/theme/images/DKFZ_Visit_GroupPic.jpeg)
