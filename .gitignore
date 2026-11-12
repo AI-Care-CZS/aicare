@@ -8,6 +8,8 @@ tmp_imgs
 
 # npm
 node_modules
+secrets/
+secrets/.secrets.json
 
 # Mac OS X
 .DS_Store
