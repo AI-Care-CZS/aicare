@@ -1,13 +1,35 @@
 // Navbar
 
 .navbar {
-  background-color: white!important;
-  border-bottom: 1px solid $gray-200;
+  background-color: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(20, 22, 46, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1030;
 
   .navbar-brand {
-    font-weight: bold;
+    color: #14162e;
+    font-family: "Outfit", $font-family-base;
+    font-weight: 700;
+    letter-spacing: -0.03em;
     img {
-      height: 30px;
+      height: 36px;
+    }
+  }
+
+  .nav-link {
+    color: #3c4664;
+    font-weight: 600;
+    padding: 0.4rem 0.85rem;
+
+    &.active {
+      color: #0e7490;
+    }
+
+    &:hover,
+    &:focus {
+      color: #0e7490;
     }
   }
 

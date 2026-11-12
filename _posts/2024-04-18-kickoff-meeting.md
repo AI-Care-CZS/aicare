@@ -1,7 +1,7 @@
 ---
 title: Kickoff meeting
 description: 18 and 19 April 2024 in RPTU, Kaiserslautern.
-background: /assets/theme/images/Logo2.png
+background: /assets/theme/images/cards/kickoff.png
       #background-size: contain
 author: [AI-Care Team]
 tags: [Meetings, Shared tag]

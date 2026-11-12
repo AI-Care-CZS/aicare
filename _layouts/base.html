@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
   <body>
+    <a class="skip-link" href="#content">Skip to content</a>
     {% include navbar.html %}
 
     <main>
       {% include header.html %}
 
-      <div class="container content">
+      <div id="content" class="{% if page.layout == 'home' %}content home-wrap{% else %}container content{% endif %}">
           
         {{ content
           | replace: '<table', '<div class="table-responsive"><table'

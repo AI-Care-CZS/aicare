@@ -1,7 +1,7 @@
 ---
 title: Visit to DKFZ Lab
 description: Lab visit to DKFZ, Heidelberg on 25th of September
-background: /assets/theme/images/DKFZ_Visit.png
+background: /assets/theme/images/cards/consortium-visit.png
       #background-size: contain
 author: [AI-Care Team]
 tags: [Visit, Shared tag]

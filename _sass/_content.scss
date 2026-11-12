@@ -1,16 +1,25 @@
 // Content
 
+.container.content {
+  padding-bottom: 3rem;
+  padding-top: 2.75rem;
+}
+
 .content {
   font-family: $custom_font, $font-family-sans-serif;
-  
-  // Use base font for headings
+  font-size: 1.05rem;
+  line-height: 1.65;
+
+  // Use a distinct face for headings
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    font-family: $font-family-base;
+    color: #14162e;
+    font-family: "Outfit", $font-family-base;
+    letter-spacing: -0.03em;
   }
 
   // Hide h1 headings in content, its use is reserved for header
@@ -57,11 +66,16 @@
   // Style images (excluding inline images not wrapped in p)
   p {
     img {
+      background: #fff;
+      border: 1px solid rgba(20, 22, 46, 0.08);
+      border-radius: 16px;
+      box-shadow: 0 12px 32px rgba(18, 22, 48, 0.06);
       display: block;
       height: auto;
       margin-left: auto; // Mimick .mx-auto
       margin-right: auto; // Mimick .mx-auto
       max-width: 100%; // Mimick .img-fluid
+      padding: 0.5rem;
 
       // Add margin between floated img and text
       &.float-start {

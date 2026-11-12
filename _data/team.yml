@@ -67,12 +67,12 @@
   student-img: assets/theme/images/team_pics/PH.png
 
 - name:		Dr. Sandesh Athni Hiremath
-  description:	Postdoc at Mechatronics in Mechanical Engineering and Process Engineering at RPTU Kaiserslautern
+  description:	Postdoc at the Department of Mathematics at RPTU
   role:	Project PI
   image: assets/theme/images/team_pics/SAH.png
-  weblink:	https://www.mv.uni-kl.de/mec/staff/sandesh-hiremath
+  weblink:	https://math.rptu.de/ags/biomath/personen/mitglieder
   phone: 	+49 631 205-3230
-  email: 		sandesh.hiremath@mv.uni-kl.de
+  email: 		sandesh.hiremath@rptu.de
 
 - name:		Prof. Dr. Marius Kloft
   description:	Professor for Machine Learning at RPTU

@@ -2,10 +2,10 @@
 
 body > footer {
   background-color: $footer;
-  border-top: 5px solid lighten($footer, 50);
-  color: lighten($footer, 50);
-  font-size: 0.9rem;
-  padding: $grid-gutter-width / 2 0;
+  border-top: 3px solid #2ec4d6;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.95rem;
+  padding: 2.25rem 0 1.5rem;
 
   .container {
     margin-top: 1rem;

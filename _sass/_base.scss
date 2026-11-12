@@ -5,6 +5,30 @@
 body {
   word-wrap: break-word; // Allow long words (e.g. URLs) to wrap, so they don't break out of container
   position: relative; // Required for scrollspy
+  background: #f4f6fb;
+  color: #1c2340;
+}
+
+::selection {
+  background: #c7f3fb;
+  color: #102033;
+}
+
+.skip-link {
+  background: #fff;
+  border-radius: 999px;
+  box-shadow: 0 8px 24px rgba(16, 18, 40, 0.18);
+  color: #102033;
+  font-weight: 700;
+  left: 1rem;
+  padding: 0.55rem 1rem;
+  position: absolute;
+  top: -4rem;
+  z-index: 2000;
+
+  &:focus {
+    top: 0.75rem;
+  }
 }
 
 .btn {
