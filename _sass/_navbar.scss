@@ -1,49 +1,247 @@
 // Navbar
+//
+// At rest the bar is frosted white, with a teal frame around the logo.
+// After a short scroll it becomes solid indigo so it contrasts with the
+// pale page, and the logo, links, and edge accent flip to light cyan.
 
 .navbar {
-  background-color: rgba(255, 255, 255, 0.92) !important;
-  backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(20, 22, 46, 0.08);
+  background-color: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px) saturate(1.2);
+  min-height: 4rem;
+  border-bottom: 1px solid rgba(20, 22, 46, 0.06);
+  box-shadow: 0 1px 0 rgba(46, 196, 214, 0.45);
   position: sticky;
   top: 0;
   z-index: 1030;
+  transition: background-color 0.28s ease, border-color 0.28s ease, box-shadow 0.28s ease;
+
+  // Thin cyan-to-indigo accent along the bottom edge
+  &::after {
+    background: linear-gradient(90deg, #2ec4d6 0%, #7c6bf2 55%, rgba(124, 107, 242, 0) 100%);
+    content: "";
+    height: 2px;
+    left: 0;
+    opacity: 0.85;
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+  }
 
   .navbar-brand {
     color: #14162e;
     font-family: "Outfit", $font-family-base;
     font-weight: 700;
     letter-spacing: -0.03em;
+    text-decoration: none;
+    transition: color 0.22s ease;
+
     img {
+      background: #fff;
+      border: 2px solid #0b6278;
+      border-radius: 12px;
+      box-shadow: 0 0 0 3px rgba(14, 116, 144, 0.45);
       height: 36px;
-    }
-  }
-
-  .nav-link {
-    color: #3c4664;
-    font-weight: 600;
-    padding: 0.4rem 0.85rem;
-
-    &.active {
-      color: #0e7490;
+      padding: 2px;
+      transition: border-color 0.22s ease, box-shadow 0.22s ease;
     }
 
     &:hover,
     &:focus {
       color: #0e7490;
+      text-decoration: none;
+
+      img {
+        border-color: #2ec4d6;
+        box-shadow: 0 0 0 3px rgba(46, 196, 214, 0.32);
+      }
     }
   }
 
-  // Remove border on .dropdown-menu when .navbar is collapsed
-  @include media-breakpoint-down(lg) {
-    .dropdown-menu {
-      border: none;
-      padding-top: 0;
+  .navbar-nav .nav-link {
+    border-radius: 999px;
+    color: #2a3354;
+    font-weight: 600;
+    padding: 0.4rem 0.85rem;
+    text-decoration: none;
+    transition: color 0.22s ease, background-color 0.22s ease;
+
+    &:hover,
+    &:focus {
+      background-color: rgba(46, 196, 214, 0.12);
+      color: #0e7490;
+    }
+
+    &.active {
+      background-color: rgba(46, 196, 214, 0.16);
+      color: #0b6278;
     }
   }
 
   .navbar-toggler {
+    background-color: #fff;
+    border: 1px solid rgba(46, 196, 214, 0.7);
+    border-radius: 999px;
+    color: #14162e;
     font-size: 90%;
-    padding: 10px;
+    padding: 8px 14px;
     text-transform: uppercase;
+    transition: color 0.22s ease, border-color 0.22s ease, background-color 0.22s ease, box-shadow 0.22s ease;
+
+    &:hover,
+    &:focus {
+      background-color: #f3fcfe;
+      border-color: #2ec4d6;
+      box-shadow: 0 0 0 3px rgba(46, 196, 214, 0.18);
+      color: #0e7490;
+    }
+
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba(46, 196, 214, 0.35);
+    }
+  }
+
+  .dropdown-menu {
+    background-color: #fff;
+    border: 1px solid rgba(46, 196, 214, 0.28);
+    box-shadow: 0 14px 32px rgba(18, 22, 48, 0.1);
+  }
+
+  .dropdown-item {
+    color: #2a3354;
+
+    &:hover,
+    &:focus {
+      background-color: rgba(46, 196, 214, 0.12);
+      color: #0e7490;
+    }
+
+    &.active,
+    &:active {
+      background-color: rgba(46, 196, 214, 0.18);
+      color: #0b6278;
+    }
+  }
+
+  .dropdown-header {
+    color: #0e7490;
+  }
+
+  .dropdown-divider {
+    border-top-color: rgba(46, 196, 214, 0.28);
+  }
+
+  @include media-breakpoint-down(lg) {
+    .navbar-collapse {
+      margin-top: 0.35rem;
+    }
+
+    .navbar-nav .nav-link {
+      padding: 0.55rem 0.85rem;
+    }
+
+    .dropdown-menu {
+      background-color: transparent;
+      border: none;
+      box-shadow: none;
+      padding-top: 0;
+    }
+  }
+
+  &.navbar-open {
+    background-color: rgba(255, 255, 255, 0.98);
+  }
+
+  &.navbar-scrolled {
+    background-color: #14183a;
+    border-bottom-color: transparent;
+    box-shadow: 0 12px 28px rgba(12, 16, 40, 0.28);
+
+    &::after {
+      background: linear-gradient(90deg, #9aefff 0%, #2ec4d6 40%, #7c6bf2 100%);
+      height: 3px;
+      opacity: 1;
+    }
+
+    .navbar-brand {
+      color: #f7fbff;
+
+      &:hover,
+      &:focus {
+        color: #9aefff;
+      }
+
+      img {
+        border-color: #9aefff;
+        box-shadow: 0 0 0 3px rgba(154, 239, 255, 0.55);
+      }
+    }
+
+    .navbar-nav .nav-link {
+      color: #e8f2ff;
+
+      &:hover,
+      &:focus {
+        background-color: rgba(154, 239, 255, 0.14);
+        color: #9aefff;
+      }
+
+      &.active {
+        background-color: rgba(46, 196, 214, 0.22);
+        color: #9aefff;
+      }
+    }
+
+    .navbar-toggler {
+      background-color: transparent;
+      border-color: rgba(154, 239, 255, 0.75);
+      color: #f7fbff;
+
+      &:hover,
+      &:focus {
+        background-color: rgba(154, 239, 255, 0.12);
+        border-color: #9aefff;
+        color: #9aefff;
+      }
+    }
+
+    .dropdown-menu {
+      background-color: #14183a;
+      border-color: rgba(154, 239, 255, 0.28);
+    }
+
+    .dropdown-item {
+      color: #e8f2ff;
+
+      &:hover,
+      &:focus {
+        background-color: rgba(154, 239, 255, 0.12);
+        color: #9aefff;
+      }
+
+      &.active,
+      &:active {
+        background-color: rgba(46, 196, 214, 0.22);
+        color: #9aefff;
+      }
+    }
+
+    .dropdown-header {
+      color: #9aefff;
+    }
+
+    @include media-breakpoint-down(lg) {
+      .dropdown-menu {
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .navbar,
+  .navbar .navbar-brand,
+  .navbar .nav-link,
+  .navbar .navbar-toggler {
+    transition: none;
   }
 }

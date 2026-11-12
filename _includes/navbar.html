@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light d-print-none" id="main-nav">
+<nav class="navbar navbar-expand-lg d-print-none" id="main-nav">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center" href="{{'/' | relative_url }}">
       {% if site.logo %}
@@ -56,3 +56,28 @@
     {% endif %}
   </div>
 </nav>
+<script>
+  (function () {
+    var nav = document.getElementById("main-nav");
+    if (!nav) return;
+
+    var threshold = 64;
+    var menu = document.getElementById("navbar-menu");
+
+    function onScroll() {
+      nav.classList.toggle("navbar-scrolled", window.pageYOffset > threshold);
+    }
+
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+
+    if (menu) {
+      menu.addEventListener("show.bs.collapse", function () {
+        nav.classList.add("navbar-open");
+      });
+      menu.addEventListener("hidden.bs.collapse", function () {
+        nav.classList.remove("navbar-open");
+      });
+    }
+  })();
+</script>
