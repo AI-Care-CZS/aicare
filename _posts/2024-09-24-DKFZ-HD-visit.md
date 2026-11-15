@@ -21,7 +21,8 @@ The visit will take place on September 25, 2024 and will focus on some of the co
 
 **Time:** 10:00-17:00
 
-<!-- **Agenda:** -->
+![The AI-Care team during the visit to DKFZ Heidelberg on 25 September 2024.](../../../assets/theme/images/DKFZ_Visit_GroupPic.jpeg)
+*The team at DKFZ Heidelberg, 25 September 2024.*
 
 ## Agenda
 
@@ -52,5 +53,3 @@ The visit will take place on September 25, 2024 and will focus on some of the co
 |---------|---------|
 
 <!-- <div class="datatable-end"></div> -->
-
-![image info](../../../assets/theme/images/DKFZ_Visit_GroupPic.jpeg)

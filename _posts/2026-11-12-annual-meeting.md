@@ -15,6 +15,9 @@ The AI-Care consortium meets for a full day of group updates on Friday, 13 Novem
   <li><span>Venue</span> Room 42-221, Department of Economics (Wirtschaftswissenschaften), RPTU Kaiserslautern</li>
 </ul>
 
+![The AI-Care consortium at the annual meeting on 13 November 2026.](../../../assets/theme/images/AnnualMeet3.png)
+*The consortium at the annual meeting, 13 November 2026.*
+
 ## Programme
 
 <table class="table agenda">
