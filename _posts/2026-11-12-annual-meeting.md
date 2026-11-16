@@ -82,7 +82,7 @@ The AI-Care consortium meets for a full day of group updates on Friday, 13 Novem
     <tr>
       <td>14:00–14:30</td>
       <td>Sandesh Hiremath<br>Markus Hess</td>
-      <td>Optimal Control of Single-Cell OMICS Regulatory Dynamics: Stochastic and Latent-Space Perspectives</td>
+      <td>Lévy-Driven Single-Cell Omics Regulatory Dynamics: GRN-conditioned transitions & latent perspectives</td>
     </tr>
     <tr class="agenda-pause">
       <td>14:30–14:50</td>
